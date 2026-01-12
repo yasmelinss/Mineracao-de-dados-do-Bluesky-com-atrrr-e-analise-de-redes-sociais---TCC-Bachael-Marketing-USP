@@ -4,20 +4,29 @@ Repositório criado para hospedar o Trabalho de Conclusão de Curso de Yasmin e 
 
 Professor orientador: Marcelo Ventura
 
+Resumo:
+
+Este Trabalho de Conclusão de Curso tem como objetivo analisar o impacto do bloqueio da plataforma X(anteriormente Twitter) em setembro de 2024 sobre a comunidade brasileira de e-sports de League of Legends(LoL) na rede social descentralizada Bluesky. Com base em dados minerados do Bluesky, empregou-se detécnicas de análise de redes sociais para visualizar a evolução das dinâmicas de engajamento da comunidadede fãs do CBLOL antes, durante e depois da suspensão do X. Com base nas teorias de “políticas de reparo”e “sociedade plataformizada”, estudar os impactos do bloqueio de uma rede social em outra representoutambém uma oportunidade de observar a construção da expressão on-line de uma rede de relacionamentos jáexistente. Focando na métrica de “curtidas”, os resultados foram visualizados através de grafos direcionais,que utilizaram medidas de centralidade para identificar e destacar vértices (usuários) com um grande númerode curtidas recebidas, que representam atores influentes na comunidade. A migração para o Bluesky eviden-ciou sua capacidade de absorver e reconfigurar dinâmicas comunitárias, destacando o papel de plataformasdescentralizadas na manutenção do engajamento em contextos de crise. Os resultados contribuem para o en-tendimento das transformações no comportamento de comunidades digitais frente a mudanças de plataforma,oferecendo insights sobre governança, influência e engajamento em redes sociais alternativas.Palavras-chave: Análise de Redes sociais. Marketing de Redes Sociais. Mineração de Dados. Bluesky. X.Twitter. E-sports. League of Legends. CBLOL. Influência digital. Grafos.
+
+
+Entre em contato:
+yasmin.messias.lins@gmail.com
+
+
 # TO-DO List
 
 Sprint da semana:
 
-- [ ] Criar novo arquivo "1-extracao.r"
-  - [ ] confirmas/ validar quais são os termos para extração dos skeets
-  - [ ] deixar um piloto com poucos dados (10L)
-  - [ ] extrair postagens entre as duas datas
-  - [ ] para cada postagem,
-    - [ ] extrair todos os comentários (thread) (que serão novas postagens)
-    - [ ] extrair reposts de todas as threads
-    - [ ] extrair todos os likes de todas as threads
-    - [ ] extrair todos os users de todas as threads
-  - [ ] escrever em disco 3 dataframes (threads, likes e users)
+- [X] Criar novo arquivo "1-extracao.r"
+  - [X] confirmas/ validar quais são os termos para extração dos skeets
+  - [X] deixar um piloto com poucos dados (10L)
+  - [X] extrair postagens entre as duas datas
+  - [X] para cada postagem,
+    - [X] extrair todos os comentários (thread) (que serão novas postagens)
+    - [X] extrair reposts de todas as threads
+    - [X] extrair todos os likes de todas as threads
+    - [X] extrair todos os users de todas as threads
+  - [X] escrever em disco 3 dataframes (threads, likes e users)
   - Yas
 
 - [X] aprimorar redação 
@@ -27,7 +36,7 @@ Sprint da semana:
 
 Backlog:
 
-- [ ] Normalizar a formatação das citações 
+- [X] Normalizar a formatação das citações 
 
 - [/] Metodologia -- ler artigos e escrever dentro dos tópicos
   - [-] análise de sentimentos (???)
@@ -35,22 +44,22 @@ Backlog:
 - [ ] Mandar e-mail para Pesquisa Games Brasil (talvez mais pra frente)
   - Thales
 - [ ] Criar novo arquivo "2-faxina.r"
-    - [ ] pra cada post, extrair 10 replies e 10 reposts
-    - [ ] manuseio dos dados 
-      - [ ] ids, handles (usuario, postagem, like, repost, reply)
-      - [ ] ligar pro lelão para explicar como fazer os dataframes de relacionamento
+    - [X] pra cada post, extrair 10 replies e 10 reposts
+    - [X] manuseio dos dados 
+      - [X] ids, handles (usuario, postagem, like, repost, reply)
+      - [X] ligar pro lelão para explicar como fazer os dataframes de relacionamento
   - Yas
 - [/] Código de como fazer
   - [ ] análise de frequência e exploratória: contagem de palavras, bigramas, visualização
-  - [ ] análise de conectividade: análise de índices de conexão, de centralidade
+  - [X] análise de conectividade: análise de índices de conexão, de centralidade
   - Yas
-- [ ] Criar novo arquivo "3-analise.qmd"
-  - [ ] montar os respectivos grafos
-    - [ ] usuarios que se seguem
-    - [ ] usuarios que são seguidos
-    - [ ] usuarios + numero de replies que cada usuario deu (proximidade maior quanto mais replies)
-    - [ ] usuarios + numero de reposts que cada usuario deu (proximidade maior quanto mais reposts)
-    - [ ] usuarios + numero de interações (replies + reposts + likes) que cada usuario deu
+- [X] Criar novo arquivo "3-analise.qmd"
+  - [X] montar os respectivos grafos
+    - [X] usuarios que se seguem
+    - [X] usuarios que são seguidos
+    - [X] usuarios + numero de replies que cada usuario deu (proximidade maior quanto mais replies)
+    - [X] usuarios + numero de reposts que cada usuario deu (proximidade maior quanto mais reposts)
+    - [X] usuarios + numero de interações (replies + reposts + likes) que cada usuario deu
   - [/] fazer gráfico dos grafos acima
   - Yas
 
